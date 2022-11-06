@@ -116,7 +116,7 @@ if ENV:
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = ARQ_API
     REDIS_URL = os.environ.get("REDIS_URL", None)
-    REWRAP_MANY_DATA_KEY = os.envion.get("REWRAP_MANY_DATA_KEY",None)
+    REWRAP_MANY_DATA_KEY = os.environ.get("REWRAP_MANY_DATA_KEY",None)
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
